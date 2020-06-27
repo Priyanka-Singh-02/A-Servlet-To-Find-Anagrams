@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webapp>
+    <servlet>
+        <servlet-name>
+            Anagram
+        </servlet-name>
+        <servlet-class>
+            Ancontroller
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>
+            Insert
+        </servlet-name>
+        <url-pattern>
+            /Insert
+        </url-pattern>
+        <welcome-file-list>
+            <welcome-file>
+                index.html
+                
+            </welcome-file>
+        </welcome-file-list>
+    </servlet-mapping>
+</webapp>
