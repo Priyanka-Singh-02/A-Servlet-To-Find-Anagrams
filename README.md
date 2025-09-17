@@ -14,40 +14,40 @@ Recommended Setup:
 3) IDE - NetBeans
 
 Note:
-1) Make sure c:/myfile.txt exists or change the file path in Insert.java:
-   BufferedReader br = new BufferedReader(new FileReader("c:/myfile.txt"));
-   The file name should contain one or more words separated by a . (period), which is used as the delimiter.
-   This will read all the words that you have written in file line-by-line
+1) Make sure c:/myfile.txt exists or change the file path in Insert.java: <br/>
+   BufferedReader br = new BufferedReader(new FileReader("c:/myfile.txt")); <br/>
+   The file name should contain one or more words separated by a . (period), which is used as the delimiter. <br/>
+   This will read all the words that you have written in file line-by-line <br/>
 
 Steps to Run:
 
-1) Open the folder in NetBeans (Anagram\)__
-   (Make sure your project has the below structure)__
+1) Open the folder in NetBeans (Anagram\) <br/>
+   (Make sure your project has the below structure) <br/>
 
 <img width="499" height="284" alt="Screenshot 2025-09-17 182828" src="https://github.com/user-attachments/assets/17fba425-9a1c-444f-99d4-14259a0e4b18" />
 
-  Note:__ 
-  WEB-INF/web.xml: Tells Tomcat how to map URLs to servlets.__
+Note:<br/> 
+WEB-INF/web.xml: Tells Tomcat how to map URLs to servlets. <br/>
 
-2) Download Tomcat
-   Link - https://tomcat.apache.org/download-90.cgi
-   i) Extract the ZIP to a folder (e.g., C:\tomcat9)__
-   ii) Start Tomcat__
-                On Windows:__
-                  Run bin/startup.bat__
-                On Linux/Mac:__
-                  Run bin/startup.sh__
-   iii) Verify it's running
+2) Download Tomcat <br/>
+   Link - https://tomcat.apache.org/download-90.cgi <br/>
+   i) Extract the ZIP to a folder (e.g., C:\tomcat9) <br/>
+   ii) Start Tomcat <br/>
+                On Windows: <br/>
+                  Run bin/startup.bat <br/>
+                On Linux/Mac: <br/>
+                  Run bin/startup.sh <br/>
+   iii) Verify it's running <br/>
         Go to : http://localhost:8080/ (You should see the Tomcat welcome page)
 
-4) Go to Run → Server and select Apache Tomcat__
+4) Go to Run → Server and select Apache Tomcat <br/>
    (If not available, click Add Server, and provide Tomcat path )
 
-5) Right-click project → Run__
-   NetBeans will:__
-   i)Compile your .java files into .class__
-   ii)Package everything__
-   iii)Deploy it to Tomcat automatically__
+5) Right-click project → Run <br/>
+   NetBeans will: <br/>
+   i)Compile your .java files into .class <br/>
+   ii)Package everything <br/>
+   iii)Deploy it to Tomcat automatically <br/>
 
 6) Go to http://localhost:8080/Anagram/Insert or equivalent path
 
